@@ -1,0 +1,11 @@
+build
+coverage
+dist
+node_modules
+.pnpm-store
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+bun.lockb
+.svelte-kit
+.pigmenta/types.d.ts
