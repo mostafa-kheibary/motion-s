@@ -1,11 +1,11 @@
 <h1 align="center"> <img width="35" height="35" alt="Motion logo" src="https://github.com/user-attachments/assets/00d6d1c3-72c4-4c2f-a664-69da13182ffc" /><br />Motion for svelte</h1>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/motion-s" target="_blank">
-    <img src="https://img.shields.io/npm/v/motion-s.svg?style=flat-square" />
+  <a href="https://www.npmjs.com/package/motion-sv" target="_blank">
+    <img src="https://img.shields.io/npm/v/motion-sv.svg?style=flat-square" />
   </a>
-  <a href="https://www.npmjs.com/package/motion-s" target="_blank">
-  <img src="https://img.shields.io/npm/dm/motion-s.svg?style=flat-square" />
+  <a href="https://www.npmjs.com/package/motion-sv" target="_blank">
+  <img src="https://img.shields.io/npm/dm/motion-sv.svg?style=flat-square" />
   </a>
 </p>
 
@@ -44,17 +44,17 @@ It does all this:
 
 ### 🐇 Quick start
 
-Install `motion-s` via your package manager:
+Install `motion-sv` via your package manager:
 
 ```
-npm install motion-s
+npm install motion-sv
 ```
 
 Then import the `motion` component:
 
 ```svelte
 <script lang="ts">
-	import { motion } from 'motion-s';
+	import { motion } from 'motion-sv';
 </script>
 
 <motion.div animate={{ x: 100 }} />
