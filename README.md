@@ -1,11 +1,11 @@
 <h1 align="center"> <img width="35" height="35" alt="Motion logo" src="https://github.com/user-attachments/assets/00d6d1c3-72c4-4c2f-a664-69da13182ffc" /><br />Velora Motion</h1>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/velora" target="_blank">
-    <img src="https://img.shields.io/npm/v/velora.svg?style=flat-square" />
+  <a href="https://www.npmjs.com/package/velora-motion" target="_blank">
+    <img src="https://img.shields.io/npm/v/velora-motion.svg?style=flat-square" />
   </a>
-  <a href="https://www.npmjs.com/package/velora" target="_blank">
-  <img src="https://img.shields.io/npm/dm/velora.svg?style=flat-square" />
+  <a href="https://www.npmjs.com/package/velora-motion" target="_blank">
+  <img src="https://img.shields.io/npm/dm/velora-motion.svg?style=flat-square" />
   </a>
 </p>
 
@@ -44,17 +44,17 @@ It does all this:
 
 ### 🐇 Quick start
 
-Install `velora` via your package manager:
+Install `velora-motion` via your package manager:
 
 ```
-npm install velora
+npm install velora-motion
 ```
 
 Then import the `motion` component:
 
 ```svelte
 <script lang="ts">
-	import { motion } from 'velora';
+	import { motion } from 'velora-motion';
 </script>
 
 <motion.div animate={{ x: 100 }} />
