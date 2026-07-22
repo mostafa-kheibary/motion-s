@@ -1,11 +1,11 @@
-<h1 align="center"> <img width="35" height="35" alt="Motion logo" src="https://github.com/user-attachments/assets/00d6d1c3-72c4-4c2f-a664-69da13182ffc" /><br />Motion for svelte</h1>
+<h1 align="center"> <img width="35" height="35" alt="Motion logo" src="https://github.com/user-attachments/assets/00d6d1c3-72c4-4c2f-a664-69da13182ffc" /><br />Velora Motion</h1>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/motion-sv" target="_blank">
-    <img src="https://img.shields.io/npm/v/motion-sv.svg?style=flat-square" />
+  <a href="https://www.npmjs.com/package/velora" target="_blank">
+    <img src="https://img.shields.io/npm/v/velora.svg?style=flat-square" />
   </a>
-  <a href="https://www.npmjs.com/package/motion-sv" target="_blank">
-  <img src="https://img.shields.io/npm/dm/motion-sv.svg?style=flat-square" />
+  <a href="https://www.npmjs.com/package/velora" target="_blank">
+  <img src="https://img.shields.io/npm/dm/velora.svg?style=flat-square" />
   </a>
 </p>
 
@@ -13,7 +13,7 @@
 <hr>
 <br>
 
-Motion for svelte is an open source, production-ready library that’s designed for all creative developers.
+Velora Motion is a open source port of motion react (formerly framer-motion) for svelte, production-ready library that’s designed for all creative developers.
 
 It's the only animation library with a hybrid engine, combining the power of JavaScript animations with the performance of native browser APIs.
 
@@ -44,17 +44,17 @@ It does all this:
 
 ### 🐇 Quick start
 
-Install `motion-sv` via your package manager:
+Install `velora` via your package manager:
 
 ```
-npm install motion-sv
+npm install velora
 ```
 
 Then import the `motion` component:
 
 ```svelte
 <script lang="ts">
-	import { motion } from 'motion-sv';
+	import { motion } from 'velora';
 </script>
 
 <motion.div animate={{ x: 100 }} />
