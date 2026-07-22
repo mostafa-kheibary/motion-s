@@ -41,8 +41,9 @@ export function useRender<
 		[children]
 	);
 
-	return createElement<any>(Component, {
-		...elementProps,
-		children: renderedChildren
-	});
+	return () =>
+		createElement<any>(Component, {
+			...elementProps,
+			children: renderedChildren
+		});
 }
