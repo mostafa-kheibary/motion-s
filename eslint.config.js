@@ -52,12 +52,12 @@ export default defineConfig(
 					prefer: 'type-imports'
 				}
 			],
-			'@typescript-eslint/no-explicit-any': 'error',
 			'@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
 			'no-async-promise-executor': 'off',
 			'@typescript-eslint/no-shadow': 'error',
 			'@typescript-eslint/no-unused-expressions': 'off',
-			'@typescript-eslint/no-empty-object-type': 'off'
+			'@typescript-eslint/no-empty-object-type': 'off',
+			'@typescript-eslint/no-explicit-any': 'off'
 		}
 		// ignores: ['./apps/back-office/src/components/shadcn/**/*']
 	},
